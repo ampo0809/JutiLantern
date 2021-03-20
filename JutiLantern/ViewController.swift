@@ -104,7 +104,7 @@ class ViewController: UIViewController {
         let minute = Int(time) / 60 % 60
         let second = Int(time) % 60
         
-        // return formated string
+        // Return formated string
         return String(format: "%02i:%02i:%02i", hour, minute, second)
     }
     
@@ -127,10 +127,10 @@ class ViewController: UIViewController {
         var torchLevel: Float = 1.0
         let chosenLevel = sender.currentTitle!
         
-        switch chosenLevel {
+        switch chosenLevel {    
         case "levelOne":
             torchLevel = 0.1
-            updateAlpha(with: 0.8, LATwo: nil, LATree: nil, LAFour: nil) // Efecto gusanito
+            updateAlpha(with: 0.8, LATwo: nil, LATree: nil, LAFour: nil)   // Caterpillar effect
         case "levelTwo":
             torchLevel = 0.4
             updateAlpha(with: 0.7, LATwo: 0.8, LATree: nil, LAFour: nil)
@@ -224,18 +224,4 @@ class ViewController: UIViewController {
 
 }
 
-/*
- 
- TO DO
- - Constrains
- 
- More advanced:
- - Figure out Sent Event to make it work like the iOS Flashlight
- - Flashlight stays on when phone is locked
- 
- https://www.hackingwithswit.com/example-code/system/how-to-run-code-when-your-app-is-terminated#:~:text=First%2C%20go%20to%20your%20project's,enables%20all%20the%20following%20functionality.
- 
- https://www.raywenderlich.com/5817-background-modes-tutorial-getting-started
- 
- 
- */
+

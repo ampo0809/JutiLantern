@@ -13,6 +13,7 @@
 		CA66CA9924BF4C7200B1A539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA66CA9724BF4C7200B1A539 /* Main.storyboard */; };
 		CA66CA9B24BF4C7500B1A539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA66CA9A24BF4C7500B1A539 /* Assets.xcassets */; };
 		CA66CA9E24BF4C7500B1A539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA66CA9C24BF4C7500B1A539 /* LaunchScreen.storyboard */; };
+		FD7596BC2605EF0600E73E28 /* RoomForImprovements.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD7596BB2605EF0600E73E28 /* RoomForImprovements.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CA66CA9A24BF4C7500B1A539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA66CA9D24BF4C7500B1A539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA66CA9F24BF4C7500B1A539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7596BB2605EF0600E73E28 /* RoomForImprovements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RoomForImprovements.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CA66CA9124BF4C7200B1A539 /* AppDelegate.swift */,
 				CA66CA9324BF4C7200B1A539 /* SceneDelegate.swift */,
 				CA66CA9524BF4C7200B1A539 /* ViewController.swift */,
+				FD7596BB2605EF0600E73E28 /* RoomForImprovements.txt */,
 				CA66CA9724BF4C7200B1A539 /* Main.storyboard */,
 				CA66CA9A24BF4C7500B1A539 /* Assets.xcassets */,
 				CA66CA9C24BF4C7500B1A539 /* LaunchScreen.storyboard */,
@@ -127,6 +130,7 @@
 			files = (
 				CA66CA9E24BF4C7500B1A539 /* LaunchScreen.storyboard in Resources */,
 				CA66CA9B24BF4C7500B1A539 /* Assets.xcassets in Resources */,
+				FD7596BC2605EF0600E73E28 /* RoomForImprovements.txt in Resources */,
 				CA66CA9924BF4C7200B1A539 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
